@@ -342,7 +342,7 @@ class Agent():
 		
 
 if __name__ == '__main__':
-	child = pe.spawn('python solveTicTacToe.py')
+	child = pe.spawn('python solveTicTacToe_optimal.py')
 	agent = Agent()
 	gameState = GameState()
 	while True:
